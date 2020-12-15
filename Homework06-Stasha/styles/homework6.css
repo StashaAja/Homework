@@ -1,0 +1,111 @@
+
+
+/* *{
+    background-color: #FFC300 
+} */
+
+/*PRASHANJE: Vo tekstot kako Homework da go pomestam da e vo sredina? */
+h1{
+    text-shadow: 2px 2px 1px cornsilk ;
+    vertical-align: middle;
+}
+h1 {
+
+   /*PRASHANJE: za content box staviv value: fit-content, zatoa shto ne znaev drug nachin kako tekstot da e vo sredina vo samiot content box. Dali ima drug nachin za toa ili vaka e okej? */
+    background-color:#B0E0E6 ;
+    width:fit-content;
+    height:fit-content
+
+    
+    /* PRASHANJE:zashto ova se prai belo? border-top-width? */
+    border-top-width: 5px;
+    border-top-color:#00BFFF;
+    border-top-style:double;
+
+    border-right-width: 7px;
+    border-right-color: #9ACD32;
+    border-right-style:solid;
+
+    border-bottom-width: 10px;
+    border-bottom-color: #00CED1;
+    border-bottom-style:solid;
+
+    border-left-width: 5px;
+    border-left-color: #6A5ACD;
+    border-left-style:solid;
+
+
+   /* PRASHANJE:dali padding sekogash ja zema bojata setirana u content boxot i dali ima naching padding da ostane bez boja? */
+    padding: 3px 40px;
+ }
+
+
+ /* PRASHANJE:Margin od nekoja prichina go davashe belo gore vo zagradite koga kje go vnesam, pa go staviv vo posebeni {}. Dali ima nekoja prichina za toa? I dali uopshte ima potreba za margin tuka? */
+ h1{
+     margin-top: 50px;
+     
+     margin-bottom: 50px;
+     margin-left: 575px;
+
+ }
+
+ /* Tuka pochnuva kodot za border za trite images */
+ body{
+     border-bottom-style:dashed;
+     border-bottom-color: red;
+     border-bottom-width: 1px ;
+ }
+
+
+ #fancy-parrot{
+     border-style: dotted;
+     border-width: 5px;
+     border-color: #32CD32;
+     padding: 5px;
+     margin-right: 30px;
+     margin-bottom: 30px;
+     margin-left: 300px;
+
+ }
+
+ #chubby-koala{
+    border-style: dotted;
+    border-width: 5px;
+    border-color: #32CD32;
+    padding: 5px;
+   
+    margin-right:30px ;
+    margin-bottom:60px ;
+  
+ }
+
+ #cute-monkeys{
+    border-style: dotted;
+    border-width: 5px;
+    border-color: #32CD32;
+    padding: 5px;
+    margin-right:30px ;
+    margin-bottom:30px ;
+ }
+
+ p>span{
+     font-weight: bold;
+     color:cornsilk;
+     background-color: #32CD32;
+ }
+
+ #border-box{
+     width: fit-content;
+     height: fit-content;
+     margin-top:20px ;
+     margin-right: 500px;
+     margin-bottom:10px ;
+     margin-left: 30px;
+     border-style: dashed;
+     border-color: black;
+    ;
+
+ }
+
+
+

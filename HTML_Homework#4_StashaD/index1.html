@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Exercise</title>
+    </head>
+    <body>
+        <form action="" method="POST">
+            <fieldset>
+                <legend><strong>Testform</strong></legend>
+
+                <br><br>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Please enter your Name">
+
+                <br><br>
+                <label for="pass">Password</label>
+                <input type="password" name="password" id="pass" required placeholder="Please enter your Password">
+
+                <br><br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required placeholder="Please enter your Email">
+
+
+                <br><br>
+                <label for="date of birth">Date of Birth</label>
+                <input type="date" name="date of birth" id="date of birth">
+
+                <br><br>
+                <label for="photo">Please attach your Photo</label>
+                <input type="file" name="photo" value="photo" id="photo" required>
+
+
+                <br>
+                <p>Gender</p>
+
+                <input type="radio" name="gender" value="male" id="m" checked="checked">
+                <label for="m">Male</label>
+                 <br>
+                 <input type="radio" name="gender" value="female" id="f">
+                 <label for="f">Female</label>
+
+                <br><br>
+                <label for="con">Continent</label>
+                <select name="continent" id="con">
+                    <option disabled selected>Please pick a continent</option>
+                    <option value="">Europe</option>
+                    <option value="">South America</option>
+                    <option value="">Nort America</option>
+                    <option value="">Asia</option>
+                    <option value="">Antartica</option>
+                    <option value="">Africa</option>
+                    <option value="">Australia</option>
+                </select>
+
+                <br><br>
+                <p>Meals</p>
+              
+                <input type="checkbox" name="meals" id="br" value="breakfast" checked="checked">
+                <label for="br">Breakfast</label>
+                <br><br>
+                <input type="checkbox" name="meals" id="lu" value="lunch">
+                <label for="lu">Lunch</label>
+                <br><br>
+                <input type="checkbox" name="meals" id="di" value="dinner">
+                <label for="di">Dinner</label>
+
+                <br><br>
+                <label for="co">Pick your favorite color</label>
+                <input type="color" name="favoritecolor" id="co">
+
+                <br><br>
+                <label for="ra">Slide to choose a value</label>
+                <input type="range" name="range" id="ra">
+
+                <br><br>
+
+                <label for="re">Remark</label>
+                <textarea name="remark" id="re" cols="40" rows="5"></textarea>
+
+                <br><br>
+                
+                <input type="submit" value="Send">
+                <input type="reset" value="Cancel">
+                
+
+
+
+            </fieldset>
+        </form>
+    </body>
+</html>
